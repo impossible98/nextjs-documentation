@@ -1,0 +1,7 @@
+[build]
+  command = "yarn run build"
+  functions = "netlify/functions"
+  publish = ".vitepress/dist"
+
+[build.environment]
+  NODE_VERSION = "18"
